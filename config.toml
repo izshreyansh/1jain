@@ -1,0 +1,6 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Onejain"
+theme = "hugo-theme-novela"
+[taxonomies]
+  author = "authors"
