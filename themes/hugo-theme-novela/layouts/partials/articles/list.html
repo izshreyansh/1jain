@@ -9,18 +9,7 @@
             {{ if not $counter }}
                 <div class="post-row">
             {{ end }}
-            <a href="{{ $article.RelPermalink }}" class="article-link"
-            {{ if and (eq ($biggerFirst) true) (eq ($biggerPlaced) false) }}
-              {{ if eq $counter 0 }}
-                id="article-link-bigger"
-                {{ $biggerPlaced = true }}
-              {{ end }}
-            {{ else if and (not $biggerFirst) (not $biggerPlaced) }}
-              {{ if ne $counter 0 }}
-                id="article-link-bigger"
-                {{ $biggerPlaced = true }}
-              {{ end }}
-            {{ end }}>
+            <a href="{{ $article.RelPermalink }}" class="article-link">
               <div class="article-data-outer">
                 <div class="image-container">
                   <img src="{{ $article.Params.hero }}" class="article-image" />
@@ -32,9 +21,9 @@
                   <p class="article-excerpt">
                     {{ $article.Params.excerpt }}
                   </p>
-                  <div class="article-metadata">
+                  <!--<div class="article-metadata">
                     {{ $article.Date.Format "January 2, 2006" }} • {{ $article.ReadingTime }} min read
-                  </div>
+                  </div>-->
                 </div>
               </div>
             </a>

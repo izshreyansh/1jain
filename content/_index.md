@@ -9,3 +9,8 @@ hero:
 seo:
   image: /images/hero-2.jpg
 ---
+
+## Previous session by Param Gurudev
+Now Playing - Anumodana Song written by Param Gurudev... LIVE Schedule: Online Jainism Course at 7:45 am and Jaap at 5 pm
+
+{{< youtube id="Hv9f9jlEICU" autoplay="true" >}}
