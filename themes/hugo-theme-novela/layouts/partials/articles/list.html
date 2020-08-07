@@ -11,8 +11,15 @@
             {{ end }}
             <a href="{{ $article.RelPermalink }}" class="article-link">
               <div class="article-data-outer">
-                <div class="image-container">
-                  <img src="{{ $article.Params.hero }}" class="article-image" />
+                <div class="image-container"
+                     {{ if not $counter }}
+                        style="background: #ade498"
+                     {{ else }}
+                        style="background: #d54062"
+                     {{ end}}
+                >
+                  <!--<img src="{{ $article.Params.hero }}" class="article-image" />-->
+                    {{ $article.Params.shortschedule | safeHTML }}
                 </div>
                 <div class="article-data">
                   <h2 class="article-title">

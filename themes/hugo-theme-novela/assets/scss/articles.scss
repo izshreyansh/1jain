@@ -310,6 +310,7 @@
 }
 
 .image-container{
+    border-radius: 5px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -322,10 +323,10 @@
     overflow: hidden;
     position: relative;
     height: 280px;
-    -webkit-box-shadow: 0 30px 60px -10px rgba(0, 0, 0, 0.22),
+    /*-webkit-box-shadow: 0 30px 60px -10px rgba(0, 0, 0, 0.22),
       0 18px 36px -18px rgba(0, 0, 0, 0.25);
             box-shadow: 0 30px 60px -10px rgba(0, 0, 0, 0.22),
-      0 18px 36px -18px rgba(0, 0, 0, 0.25);
+      0 18px 36px -18px rgba(0, 0, 0, 0.25);*/
     margin-bottom: 30px;
     -webkit-transition: -webkit-transform 0.3s var(--ease-out-quad),
       -webkit-box-shadow 0.3s var(--ease-out-quad);
@@ -501,10 +502,10 @@
       -webkit-transform: translateY(-1px);
           -ms-transform: translateY(-1px);
               transform: translateY(-1px);
-      -webkit-box-shadow: 0 50px 80px -20px rgba(0, 0, 0, 0.27),
+      /*-webkit-box-shadow: 0 50px 80px -20px rgba(0, 0, 0, 0.27),
         0 30px 50px -30px rgba(0, 0, 0, 0.3);
               box-shadow: 0 50px 80px -20px rgba(0, 0, 0, 0.27),
-        0 30px 50px -30px rgba(0, 0, 0, 0.3);
+        0 30px 50px -30px rgba(0, 0, 0, 0.3);*/
     }
 
     &:hover h2,
